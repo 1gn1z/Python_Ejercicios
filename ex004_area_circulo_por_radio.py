@@ -3,7 +3,10 @@
 # Vamo' a importar la libreria MATH, especificamente lo que necesitamos, la parte del PI:
 from math import pi
 
-radio = int(input('Ingrese el radio del círculo: '))
+#radio = int(input('Ingrese el radio del círculo: '))
+
+# Cambiamos a float para ingresar numeros con punto flotante (decimales). Funciona bien aunque no sea numero con punto decimal ;)
+radio = float(input('Ingrese el radio del círculo: '))
 
 # Bucamos la formula en internet:
 #El área de un círculo es pi multiplicado por el radio al cuadrado (A = π r²).
