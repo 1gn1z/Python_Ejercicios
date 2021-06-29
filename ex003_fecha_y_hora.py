@@ -7,4 +7,9 @@ import datetime
 hora_actual = datetime.datetime.now()
 print(hora_actual)
 
-# Vamos a formatear sobre el objeto datetime, por que muestra la fecha asi: 
+# Vamos a formatear sobre el objeto datetime, por que muestra la fecha asi: 2021-06-28 19:40:05.941767
+
+# Para formatear horas y fechas, tenemos la funcion STRFTIME
+# ver https://strftime.org/ para saber como formatear
+
+print(hora_actual.strftime('%A %d %B %Y - %I:%M:%S %p'))
