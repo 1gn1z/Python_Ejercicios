@@ -20,3 +20,12 @@ print('Python', 'esta', 'chido!', sep='*')
 print('Python', 'esta', 'chido!', sep='--------')
 print('Python', 'esta', 'chido!', sep=':')
 
+# Con print podemos tener CADENAS FORMATEADAS o PLACEHOLDERS. Por ejemplo:
+# Se usaba antiguamente asi, la funcion .format
+
+print('{} esta {}'.format('Python', 'chido!!!'))
+
+var1='Python'
+var2='esta chulo'
+# La nueva forma es con solo una F, y dentro de los placeholders van las variables a imprimir (texto solo no se puede)
+print(f'{} esta {}', 'Python', 'chulo')
