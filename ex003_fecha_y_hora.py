@@ -13,3 +13,5 @@ print(hora_actual)
 # ver https://strftime.org/ para saber como formatear
 
 print(hora_actual.strftime('%A %d %B %Y - %I:%M:%S %p'))
+# Podemos formatear de distintas maneras, depende como queramos o necesitemos.
+print(hora_actual.strftime('%d/%m/%Y %H:%M:%S %p'))
