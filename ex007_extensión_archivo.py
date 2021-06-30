@@ -12,3 +12,7 @@ nombre_archivo = input('Ingrese el nombre del archivo: ')
 
 partes_nombre_archivo = nombre_archivo.split('.')
 print(partes_nombre_archivo)
+
+# Podemos usar slicing para obtener solo el segundo elemento de la cadena:
+# Sin ver el tuto esto :3 <3
+print(partes_nombre_archivo[1])
