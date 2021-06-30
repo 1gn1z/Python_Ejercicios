@@ -24,3 +24,12 @@ print(lista)
 # tal cual fue ingresada: 2, 8, 1, 4. Como vemos, hay un espacio antes del 8 el 1 y el 4, por eso en el resultado que arroja Python
 # los imprime con un espacio. 
 
+# Si al ingresar los datos no se ponen espacios:
+
+#   Escriba varios números separados por comas: 2,8,9,0,1,8
+
+# El resultado no tendrá espacios:
+
+# ['2', '8', '9', '0', '1', '8']
+# 
+# 

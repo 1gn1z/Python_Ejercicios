@@ -15,3 +15,5 @@ print(hora_actual)
 print(hora_actual.strftime('%A %d %B %Y - %I:%M:%S %p'))
 # Podemos formatear de distintas maneras, depende como queramos o necesitemos.
 print(hora_actual.strftime('%d/%m/%Y %H:%M:%S %p'))
+print()
+print(hora_actual.strftime('%x-%X'))
